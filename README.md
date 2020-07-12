@@ -1,0 +1,2 @@
+# PA
+laboratoare Proiectarea Algoritmilor
