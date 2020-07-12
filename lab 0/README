@@ -1,0 +1,5 @@
+1. Descărcați scheletul de cod pentru laboratorul 00. Deschideți sursele în editorul sau IDE-ul favorit.
+2. În schelet este definită clasa Complex. Sortați descrescător elementele unui vector de numere complexe folosind un maxheap.
+Criteriul principal de sortare este partea reală. La părți reale egale, criteriul este partea imaginară.
+Pentru maxheap puteți folosi clasa PriorityQueue în Java sau std::priority_queue în C++.
+3. Folosind std::map în C++, sau HashMap în Java, creați o mapare între elementele din vector și poziția lor în șirul sortat.
