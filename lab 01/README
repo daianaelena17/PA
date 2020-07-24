@@ -1,0 +1,17 @@
+task 1 - Count occurrences
+
+Se da un sir sortat v cu n elemente. Gasiti numarul de elemente egale cu x din sir. 
+
+task 2 - SQRT
+
+Se da un numar real n. Scrieti un algoritm de complexitate O(log n) care sa calculeze sqrt(n)
+cu o precizie de 0.001. 
+
+task 3 - ZParcurgere
+
+Rezolvati problema ZParcurgere folosind scheletul pus la dispozitie. Enuntul si explicatiile le gasiti in partea de seminar.
+
+task 4 - Exponentiere logaritmica
+
+Se dau doua numere naturale base si exponent. Scrieti un algoritm de complexitate O(log(exponent))
+care sa calculeze baseexponent % MOD. 
