@@ -1,5 +1,4 @@
 #include <bits/stdc++.h>
-#include <math.h>
 using namespace std;
 
 class Task {
@@ -49,7 +48,7 @@ private:
     // std::bitset<16> s(x_y_copy);
     // cout << s << " ";
 
-        return (int) x_y_copy + 1; // morton starts from 0. the problem starts from 1
+        return (int) x_y_copy + 1; // morton incepe de la 0. problema de fata incepe cu 1
     }
 
     void print_output(int result) {
