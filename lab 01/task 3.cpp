@@ -27,10 +27,6 @@ private:
         x--;
         y--;
 
-      // std::bitset<8> q(x);
-      // std::bitset<8> r(y);
-      // cout << q << " " << r << '\n';
-
     unsigned long long x_y_copy = 0;
    // matricea Morton implica faptul ca elementul de pe pozitia (x, y) are valoarea
    // intrepatrunderii bitilor coordonatelor. x = 01 si y = 01 atunci pe poz (x, y)
@@ -38,15 +34,13 @@ private:
     for (int i = 31; i >= 0; i--) {
         int mort = 0;
         int xbit = ((unsigned long) x) & (1 << i);
-        mort = (mort |= xbit) << i+1;
+        mort = (mort |= xbit) << i + 1;
         x_y_copy|= mort;
         mort = 0;
         int ybit = ((unsigned long) y) & (1 << i);
         mort = (mort |= ybit) << i;
         x_y_copy |= mort;
     }
-    // std::bitset<16> s(x_y_copy);
-    // cout << s << " ";
 
         return (int) x_y_copy + 1; // morton incepe de la 0. problema de fata incepe cu 1
     }
